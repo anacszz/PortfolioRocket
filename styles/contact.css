@@ -5,6 +5,7 @@
   text-align: center;
   color: var(--base-color-gray5);
   font: var(--text-md);
+  padding-top: 28px;
 }
 
 .contact span {

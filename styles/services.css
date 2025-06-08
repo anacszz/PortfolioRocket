@@ -1,6 +1,7 @@
 .services {
   background-color: var(--base-color-gray2);
   padding-bottom: 120px;
+  padding-top: 58px;
 
   span {
     padding-top: 88px;
