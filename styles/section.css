@@ -1,0 +1,59 @@
+.work {
+  background-color: var(--base-color-gray2);
+
+  span {
+    color: var(--brand-color-red);
+    font: var(--subtitle);
+    text-align: center;
+    padding-bottom: 8px;
+    display: block;
+  }
+
+  .grid-work {
+    display: grid;
+    /* Ativa o layout grid */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Garante que se ajustem */
+    gap: 24px;
+    /* Espaçamento entre os cards */
+    padding: 0 32px 56px;
+    /*Espaço interno: direita/esquerda e embaixo */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .look {
+    color: var(--base-color-gray5);
+    font: var(--title-md);
+    padding-bottom: 56px;
+  }
+
+
+  p {
+    font: var(--text-sm);
+    color: var(--base-color-gray5);
+    text-align: left;
+    padding-bottom: 21px;
+  }
+
+}
+
+.card {
+  background-color: var(--base-color-gray3);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.card img {
+  width: 100%;
+  /* Faz a imagem ocupar toda a largura disponível do card, sem ultrapassar */
+  border-radius: 10px;
+}
+
+.title {
+  padding-top: 12px;
+  padding-bottom: 8px;
+  font: var(--title-sm);
+  color: var(--base-color-gray5);
+  text-align: left;
+}
