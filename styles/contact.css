@@ -1,0 +1,69 @@
+.contact {
+  background-image: url("/assets/img/Background_Intro.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: var(--base-color-gray5);
+  font: var(--text-md);
+}
+
+.contact span {
+  font: var(--subtitle);
+  color: var(--brand-color-purple);
+  padding-bottom: 8px;
+}
+
+.contact h3 {
+  font: var(--title-md);
+  color: var(--base-color-gray5);
+  padding-bottom: 8px;
+}
+
+.contact p {
+  font: var(--text-md);
+  color: var(--base-color-gray5);
+  padding-bottom: 48px;
+
+}
+
+.gridcontact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  justify-items: center;
+  /* Centraliza os cards horizontalmente */
+  padding-bottom: 200px;
+}
+
+.c {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  /* Ícone - texto - seta */
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 16px 24px;
+  background-color: var(--base-color-gray3);
+  border: 2px solid var(--base-color-gray3);
+  border-radius: 12px;
+}
+
+
+.logo {
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+  /* Espaço ao lado do texto */
+  align-self: center;
+}
+
+.c p {
+  margin: 0;
+  padding: 0;
+  font: var(--text-md);
+  color: var(--base-color-gray5);
+  align-self: center;
+  /* Centraliza o texto na célula */
+  line-height: 1;
+  /* Garante que o texto não tenha espaçamento vertical extra */
+}
