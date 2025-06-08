@@ -1,0 +1,57 @@
+.services {
+  background-color: var(--base-color-gray2);
+  padding-bottom: 120px;
+
+  span {
+    padding-top: 88px;
+    font: var(--subtitle);
+    color: var(--brand-color-red);
+  }
+
+  .servh3 {
+    font: var(--title-md);
+    color: var(--base-color-gray5);
+    padding-bottom: 56px;
+  }
+}
+
+.services p {
+  font: var(--text-sm);
+  color: var(--base-color-gray5);
+  margin-bottom: 4px;
+}
+
+.services h3 {
+  font: var(--title-sm);
+  color: var(--base-color-gray5);
+  padding-bottom: 8px;
+}
+
+.gridcard {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.s {
+  background-color: var(--base-color-gray2);
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  min-height: 180px;
+  height: 155px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px solid var(--base-color-gray3);
+}
+
+.services img {
+  padding-bottom: 20px;
+  width: 40px;
+  height: auto;
+}
+
