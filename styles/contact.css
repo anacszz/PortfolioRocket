@@ -1,11 +1,11 @@
 .contact {
-  background-image: url("../assets/img/backgroundcontacts.png");
   background-size: cover;
   background-position: center;
   text-align: center;
   color: var(--base-color-gray5);
   font: var(--text-md);
   padding-top: 28px;
+  background-image: url("../assets/img/backgroundcontacts.png");
 }
 
 .contact span {
